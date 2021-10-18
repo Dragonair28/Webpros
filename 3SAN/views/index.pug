@@ -1,0 +1,68 @@
+//- index.pug
+doctype html
+html
+  head
+    title Animerate.in
+    style
+      include ../static/style.css
+  body
+    nav#navbar       
+        ul 
+            div#logo
+                img(src="/static/imgs/logo6.png")
+                | Animerate.in
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") New Release]
+            li #[a(href="/") Mylist]
+            li #[a(href="/") Help]
+
+    section#introSection
+        div Weathering with you
+        div.small  stars :- *****
+
+
+    section#missionSection 
+        h2 Our services page 
+        div.card 
+            h3 Updated Uploads 
+            div.card-box 
+                div.card-img 
+                    img(src="/static/imgs/upload.png")
+                div.card-content 
+                    p Everday new updates and uploads of new anime movie ratings and links to free download  
+        div.card 
+            h3 Every genre and Language 
+            div.card-box 
+                div.card-img 
+                    img(src="/static/imgs/language.png")
+                div.card-content 
+                    p Dub and Sub anime movies are also available  
+        div.card 
+            h3 Based on World wide Opinions
+            div.card-box 
+                div.card-img 
+                    img(src="/static/imgs/worldwide.png")
+                div.card-content 
+                    p    Worldwide anime are available with proper ratings
+
+
+    section#sponsorSection
+        h2 sponsor section 
+        div#sponsors 
+            img(src="/static/imgs/fb.png" alt="Sponsor Image", class="spImage")
+            img(src="/static/imgs/instaa.png" alt="Sponsor Image", class="spImage")
+            img(src="/static/imgs/discord.png" alt="Sponsor Image", class="spImage")
+            img(src="/static/imgs/tweet.png" alt="Sponsor Image", class="spImage")
+
+
+    footer#footer 
+        h2 Copyright Ⓒ 2021 Animerate.in  |  All rights  reserved 
+        
+
+
+
+
+
+    script
+      include ../static/index.js

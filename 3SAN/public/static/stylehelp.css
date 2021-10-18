@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    margin: 2px 2px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.container h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 30px;
+    font-size: 35px;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.myInput {
+    font-size: 15px;
+    width: 40%;
+    padding: 16px;
+    margin: 17px 4px;
+    border: 4px solid #2ea2a2;
+    border-radius: 23px;
+    outline: none;
+}
+
+.btn {
+    border: 4px solid #2ea2a2;
+    border-radius: 18px;
+    font-size: 21px;
+    margin: 7px 5px;
+    padding: 11px 17px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    outline: none;
+}

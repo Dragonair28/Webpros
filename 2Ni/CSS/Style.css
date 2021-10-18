@@ -1,0 +1,150 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* CSS variables */
+
+:root {
+    --navbar-height: 59px;
+}
+
+
+/* Navigation Bar */
+
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /*  its for showing the elements beaneath it */
+    opacity: 0.98;
+    /* border-radius: 10px; */
+}
+
+
+/* Navigation Bar: Logo and Image */
+
+#logo {
+    margin: 10px 34px;
+}
+
+#logo img {
+    height: 59px;
+    margin: 3px 6px;
+}
+
+
+/* Navigation Bar: List styling */
+
+#navbar {
+    position: relative;
+}
+
+#navbar ul {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#navbar ul li {
+    /* color: white; */
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul a {
+    color: white;
+    display: block;
+    padding: 5px 22px;
+    margin: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul a:hover {
+    color: black;
+    background-color: wheat;
+}
+
+
+/* Home section */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    /*  its for showing the elements beaneath it */
+    /* border-radius: 10px; */
+    background: url(../kimi.jpg) no-repeat center center/cover;
+}
+
+#home h1 {
+    color: rgb(28, 87, 102);
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+#home p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* Services section */
+
+
+/* Utility Classes */
+
+.h-primary {
+    font-size: 3.4rem;
+    padding: 12px;
+}
+
+.h-secondary {
+    font-size: 2.4rem;
+    padding: 12px;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: rgb(28, 87, 102);
+    color: white;
+    border-radius: 8px;
+    margin: 18px;
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: transparent;
+}
+
+.center {
+    text-align: center;
+}

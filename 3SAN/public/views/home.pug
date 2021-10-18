@@ -1,0 +1,51 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+  
+
+block content 
+    
+
+    section#introSection
+        div Weathering with you 
+        div.small   *****
+
+
+    section#missionSection 
+        h2 Our services page 
+        div.card 
+            h3 Updated Uploads 
+            div.card-box 
+                div.card-img 
+                    img(src="/static/imgs/upload.png")
+                div.card-content 
+                    p Everday new updates and uploads of new anime movie ratings  
+        div.card 
+            h3 Every genre and Language 
+            div.card-box 
+                div.card-img 
+                    img(src="/static/imgs/language.png")
+                div.card-content 
+                    p Dub and Sub anime movies are also available  
+        div.card 
+            h3 Based on World wide Opinions
+            div.card-box 
+                div.card-img 
+                    img(src="/static/imgs/worldwide.png")
+                div.card-content 
+                    p    Worldwide anime are available with proper ratings
+
+
+    section#sponsorSection
+        h2 sponsor section 
+        div#sponsors 
+            img(src="/static/imgs/fb.png" alt="Sponsor Image", class="spImage")
+            img(src="/static/imgs/instaa.png" alt="Sponsor Image", class="spImage")
+            img(src="/static/imgs/discord.png" alt="Sponsor Image", class="spImage")
+            img(src="/static/imgs/tweet.png" alt="Sponsor Image", class="spImage")
+

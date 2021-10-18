@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Movies</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="CSS/style.css">
+<style>
+    /* CSS reset */
+    
+    body {
+        font-family: 'Indie Flower', cursive;
+        height: fit-content;
+        /* background: url('https://source.unsplash.com/collection/190727') no-repeat center center/cover; */
+        background: url("/img6.jpg");
+    }
+    
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 35px;
+        top: 25px;
+        /* color: floralwhite; */
+    }
+    
+    .left div {
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .logo {
+        height: 10px;
+        width: 10px;
+    }
+    
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 25px auto;
+    }
+    
+    .right {
+        position: absolute;
+        right: 35px;
+        top: 25px;
+        display: inline-block;
+    }
+    
+    .btn {
+        color: white;
+        background-color: rgb(37, 129, 185);
+        margin: 7px 12px;
+        padding: 5px 10px;
+        border: 2px solid white;
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    .btn:hover {
+        background-color: rgb(116, 182, 211);
+        color: black;
+    }
+    
+    .navbar {
+        display: inline-block;
+    }
+    
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+    }
+    
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 25px 12px;
+    }
+    
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(19, 59, 190);
+    }
+    
+    .container {
+        margin: 6px 7px;
+        padding: 11px 9px;
+        width: 42%;
+        border-radius: 13px;
+    }
+    
+    .container h3 {
+        text-align: center;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .form-group input {
+        padding: 4px 52px;
+        width: 30%;
+        display: block;
+        text-align: center;
+        border: 4px solid rgb(86, 87, 90);
+        color: white;
+        margin: 9px 158px;
+        border-radius: 12px;
+        background: rgb(151, 199, 209);
+        /* background: transparent; */
+    }
+</style>
+
+<body background-color:black>
+    <header class="header">
+
+    </header>
+    <!-- logo -->
+    <div class="left">
+        <!-- <img src="https://source.unsplash.com/collection/190727/1600x900" alt=""> -->
+        <!-- background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover; -->
+        <div>Manga shounen</div>
+        <!-- <div id="logo"><img src="/logo4.png" />Manga shounen</div> -->
+    </div>
+    <!-- navbar -->
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Website</a></li>
+            <li><a href="#">About us</a> </li>
+            <li><a href="#">Contact us</a> </li>
+        </ul>
+    </div>
+    <!-- some buttons -->
+    <div class="right">
+        <button class="btn">
+            Call us
+        </button>
+        <button class="btn">
+            Feedback
+        </button>
+        <p></p>
+    </div>
+
+
+    <div class="container">
+        <h3>Sign up/Login for new updates on all Anime Movies</h3>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <button class="btn">
+                Submit
+            </button>
+
+
+
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
